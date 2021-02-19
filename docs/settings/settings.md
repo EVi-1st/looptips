@@ -1,66 +1,87 @@
-# Initial Settings
+# Начало настройки
 
-Here's how 90% of Loopers start:
+Как начинают 90% «луперов»:
 
-1. Switch from their existing pump over to a Loop-compatible pump
-2. Within hours, they begin closed loop use of Loop
-3. When blood glucose isn't as smooth as hoped for, Looper begins to try to adjust settings while still in closed loop
+1.	Подключают помпу.
+2.	Закрывают петлю.
+3.	Когда графики ГК не такие гладкие, как ожидалось, пользователь пытается поменять настройки и коэффициенты не открывая петлю.
 
-The problem with this sequence is that adjusting settings on the fly while in closed loop can be difficult as a new user.  Here are some recommendations to help make the transition to closed loop easier.  The first place to start is with getting the best initial settings as you can.
+Проблема таких действий в том, что изменение настроек «на лету» с замкнутой петлей может вызвать трудности и ошибки в использовании АПС. Ниже несколько рекомендаций и разъяснений, которые упростят переход к замкнутой петле. Первое с чего следует начать, это как можно лучше подобрать первичные настройки и коэффициенты.
 
-## Try Open Looping first
+## Сначала попробуйте открытую петлю.
 
-If I could offer one bit of really useful advice, it would be to open loop for at least a few days and don't accept any of the temporary basal recommendations from Loop. Just watch and get used to the Loop program. Adjust to the user interface and buttons you'll be pressing.  This breaking-in phase will also let you get used to the Medtronic pump and sites.  If there are differences between how your body absorbs insulin from your old pump vs the Medtronic pump, open looping will be a good way to notice those before adding the complexity of automated corrections from Loop. [Note: while **open looping** and entering meals with the pizza icon, Loop may recommend less upfront bolus with the intent to make up the remainder of needed insulin via high temporary basals later. In those situations, you may have to manually dose the split portion of the bolus later, similar to normal pump use for slow digesting meals like pizza and quesadillas, since Loop will not be automatically setting temporary basals.]
+Полезный совет – откройте петлю хотя бы на несколько дней и не принимайте никаких временных базальных и болюсных рекомендаций от Loop. Просто смотрите и привыкайте к программе, не спешите, используйте Loop как «пульт» от помпы – запись углеводов, ввод болюса. Открытая петля (в отличие от закрытой петли с автоматическими корректировками) будет хорошим способом заметить различия в работе инсулина между старой и новой помпой, а так же при переходе с терапии на ручках.
 
-If you want extra credit points to help, you can read some excellent books about pump settings and what they mean.  For example, *Think Like a Pancreas* is a great reference for understanding some of the guiding principles in pump therapy.  Let me summarize the important parts about pump settings:
+Примечание: при внесении углеводов и выборе иконки пиццы на **открытой петле** Loop может порекомендовать меньший болюс с намерением восполнить остаток необходимого инсулина с помощью увеличения ВБС в будущем. В таких ситуациях вам, возможно, придется вручную вводить оставшуюся часть болюса позже, аналогично обычному использованию помпы для медленно усвояемых блюд, таких как пицца или плов, поскольку Loop не будет автоматически устанавливать временные базальные скорости.
 
-* Basal rates should keep your blood glucose steady in the absence of other influences (such as food, medications, etc).
-* Boluses should return your blood glucose to target after a meal.
-* ISF should be the amount one unit of insulin drops your blood glucose without other influences.
-* DIA is the duration of insulin activity, how long the insulin affects blood glucose
+Если вам нужны дополнительные знания, вы можете прочитать отличные книги о настройках помпы и их значении. Например, «Think Like a Pancreas» - отличный справочник для понимания главных принципов помповой терапии.
 
-It is absolutely possible to have two wrong settings look like right settings when they balance out. The problem is that those wrong settings won't balance out in all situations...and looping will not be smooth in those situations. Example: Too low of basals can be offset by regular eating of meals with too strong of a carb ratio. If you stop eating though, you'll start going high because that extra insulin from the meal boluses won't be there to help the lack of basals. Taking the time to validate your settings by truly testing them is really good practice before closing loop.
+Важные термины и настройки:
 
-### 1st: Insulin Duration
+*	Базальные дозы должны поддерживать уровень глюкозы в крови на постоянном уровне в отсутствие других факторов (например, пищи, лекарств, физической активности и т. д.).
+*Болюсы должны возвращать целевой уровень глюкозы в крови после еды.
+*	ISF (insulin sensitivity factor), фактор чувствительности к инсулину - это количество ммоль/л, на которое одна единица инсулина снижает уровень глюкозы в крови за 4 - 6 часов без каких-либо других влияний.
+*	DIA (duration of insulin action) - это продолжительность активности инсулина, как долго инсулин влияет на уровень глюкозы в крови.
+*	IOB (insulin on board) - количество активного инсулина в организме сверх базальной потребности, оставшегося от прошлых болюсов или повышенной ВБС. Пример: базальная скорость 0,5 ед/ч + болюс 0,25 ед или увеличенный ВБС 0,75 ед/ч на 1 час дадут IOB=0,25 ед.
+*	CR (carb ratio), углеводный коэффициент - это количество углеводов, покрываемых одной единицей инсулина.
 
-The majority of pumpers have used DIA at about 3 hours on traditional pump therapy. There's a reason for that.  In traditional pump use, DIA is only used to calculate the remaining active insulin (i.e, IOB) at any given time after a bolus. That's it. And when do we use that active insulin value in traditional pump therapy? Usually when we want to give a correction because blood glucose is stuck high or going low...in other words, DIA is used as a rough approximation to correct off-target blood glucose. It doesn't have to be rocket science then since we're making an approximation because some other numbers (carbohydrate count, basals, ISF, etc) weren't behaving the way we were expecting either and therefore leading to an off-target blood glucose.
+Очевидно, что две неверно подобранные настройки будут выглядеть правдоподобно, если они «сбалансированы». Проблема в том, что эти неправильные настройки скомпенсируют вас не во всех ситуациях и график не будет плавным. 
+Например: недостаток базы можно компенсировать регулярным приемом пищи с высоким содержанием углеводов. Если же приемы пищи перестанут быть такими регулярными, то ГК станет высокой без восполнения нехватки базы от болюсов (речь так же о неверном CR). Потратьте время на проверку коэффициентов — это облегчит и улучшит использование закрытой петли.
 
-But in looping, DIA plays a **huge** role in how Loop is anticipating and evaluating your blood glucose movement. DIA is used to calculate how much insulin is remaining in your system (i.e., active insulin) to potentially move your blood glucose. Active insulin is used literally every single loop calculation for what temporary basal or bolus to recommend.
+### 1. Время действия инсулина (DIA)
 
-Not only that, but the **strength** of the insulin at any given time is also being used. Closed-loops know and care about whether your insulin was given recently and is due to peak soon (between 60-90 minutes with novolog/humalog), or if it is in the slow, tailing portion later where BG impacts are going to be way less dramatic. DIA means a lot in your closed-looping world.
+Большинство пользователей помп считают DIA 3-4 часа, и для этого есть весомая причина: в помповой терапии время действия инсулина используется только для расчета оставшегося активного инсулина (т. е. IOB) в любой момент времени после болюса. Вот и все. Количество активного инсулина при использовании помпы нужно обычно при необходимости внести корректировку (болюс), если уровень глюкозы в крови застрял на высоком или уменьшить ВБС, если идет вниз. То есть, DIA используется как приблизительная величина для корректировки ГК.
 
-What will happen if you use too short of a DIA in closed-looping? You'll see symptoms in a variety of ways, but too short a DIA will give the equivalent of insulin-stacking. Loop's assumption will be that insulin is disappearing faster than it actually is. If you are getting steady blood glucose while closed looping with a short DIA, it's likely that your basals are being set too low to compensate. If instead you have your basals correctly set and use a short DIA in closed-looping, you will likely find yourself going low from corrections. One good indication of this is going lower than target carrying negative IOB from previous loop low/zero temp basals.
+Но в петле DIA играет **огромную** роль в восприятии и обработке Loop-ом изменений значения уровня ГК. DIA используется для расчета количества активного инсулина в организме (IOB). Активный инсулин учитывается при каждом расчете петли (раз в пять минут), чтобы рекомендовать ВБС или болюс.
 
-!!!note "Insulin model recommendation"
-    There are four insulin models to choose from in Loop and the DIA your Loop uses is based on your model selection. Three are exponential models (Rapid-acting adult, Rapid-acting child, and Fiasp) and one is an older, less exact model (Walsh). Use one of Loop's exponential insulin curves (Rapid Acting adult/child or Fiasp) and their default DIA of 6 hours. This will help prevent insulin stacking as you begin Loop. The Walsh model, if you want to try that one, should be set to a DIA of 5.5 to 6 hours...although exponential curves are really the preferred option.  You can read more about insulin models and how they help determine the active insulin over time in the Algorithm section of this site.
+Также учитывается **сила** (имеется в виду концентрация) инсулина в любой момент времени. Замкнутая петля учитывает время ввода инсулина и как скоро он достигнет пика (около 60-90 минут). Другими словами, Loop учитывает количество инсулина, прошел ли он свой пик или же находится в медленной, хвостовой части (влияние на ГК будет снижено во втором случае) поэтому DIA очень много значит в закрытой петле.
 
-### 2nd: Basals
+Что будет если использовать слишком короткое DIA в замкнутой петле? Слишком маленькое время действия инсулина даст эффект накопления и петля будет предполагать, что инсулин «исчезает» быстрее чем на самом деле. Если вы получаете стабильный уровень глюкозы с замкнутой петлей и коротким DIA, вероятно, скорости базала слишком маленькие чтобы скомпенсировать вашу потребность (при выборе DIA 6 часов и недостатке базы ГК неуклонно будет ползти вверх). В случае правильно настроенной базы и коротким DIA при замкнутой петле, скорее всего, случится гипогликемия. 
 
-Now that you have a reasonable DIA and insulin model selected, make sure to test your basals. Establishing a quality basal schedule is setting yourself up for successful looping. Personally, we find testing basals can be pretty painless and doesn't require days of fasting. Instead, look for easy opportunities. If you are willing to open-loop test, that is going to give the most accurate information in the quickest way.
+Итак, на короткое DIA указывает:
 
-It's a pretty easy test. Turn off your loop or open loop. Don't eat food, don't do crazy exercise, don't sit in a hot tub. Just have a relaxing average time period and see if your basals are able to hold you roughly steady. It doesn't matter if you are at target or not; the idea is to simply have zero extra active insulin from any boluses or corrections and watch what happens during those hours. Typically you would want to see about 3-4 hours of blood glucose without the influence of food boluses or activity.
+*	снижение ГК ниже целевого уровня,
+*	отрицательный IOB из-за предшествующих до этого уменьшенной ВБС или отключения базы.
 
-Many people, especially little kids, are not enthusiastic about fasting basal testing...so look for opportunities to make it less cumbersome if you have to eat during the test. For example, use a low carb meal/snack that you know how to bolus for (or doesn't need a bolus at all) and generally needs no corrections. For us, that's two extra large scrambled eggs (or three small ones) with cheese bolused at 8g. If she eats that meal, the blood glucose response is slow and measured. Three hours after that meal, the bolus and food effects are really muted and we can start watching to see if blood glucose stayed pretty steady.  For example, here's some of a recent open-loop basal testing we did and confirmed that blood glucose could stay pretty steady without the involvement of temporary basal help from looping.
+**Модели инсулина**
+
+В Loop есть четыре модели инсулина. Три являются экспоненциальными моделями (быстро действующий взрослый, быстро действующий дети и fiasp), а одна — более старая и менее точная модель walsh).
+
+Рекомендуется использовать одну из экспоненциальных кривых инсулина (быстро действующий взрослый, быстро действующий дети или fiasp). Их стандартное значение DIA равно 6 часам. Такое время действия инсулина поможет предотвратить эффект накопления в замкнутой петле.
+Модель walsh, если вы хотите попробовать ее, должна быть установлена на DIA от 5,5 до 6 часов. Но экспоненциальные кривые являются **предпочтительным** вариантом. Узнать больше о моделях инсулина и о том, как они помогают считать активный инсулин, можно в разделе «Алгоритмы» в looptips.
+
+
+### Скорости базала
+
+Теперь, когда вы разумно выбрали модель инсулина и DIA, обязательно проверьте свою базу. **Качественно подобранная база — это подготовка к успешному использованию Loop.** Подбор базы довольно прост и не требует нескольких дней голодания.
+
+Откройте петлю или же пользуйтесь только программой для мониторинга. Выберите период времени, не ешьте, не упражняйтесь, не сидите в горячей ванне и проверьте как база «держит» уровень ГК. Неважно, попали вы в цель или нет, идея состоит в том, чтобы просто получить нулевой дополнительный активный инсулин от любых болюсов, ВБС и наблюдать, что происходит в эти часы. Оценивайте уровень глюкозы в крови примерно за период в 3-4 часа без влияния болюсов на еду или активности, только потом переходите к следующему участку дня.
+
+Многие люди, особенно маленькие дети, не в восторге от проверки базы натощак, поэтому ищите возможность сделать это занятие менее обременительным. Если вам необходимо есть во время теста, используйте низко-углеводную еду или перекус, для которого вы знаете, сколько точно требуется инсулина (или вообще не нужен болюс), эта еда вам «знакома» и не потребует корректировок. Для нас это две очень большие яичницы-болтуньи (или три маленьких) с шариком сыра 8 г. Если она ест эту еду, подъем ГК будет медленным и плавным. Через три часа после приема пищи болюсный и пищевой эффекты приглушены, и мы можем начать наблюдать, остается ли уровень ГК стабильным. Например, вот недавний тест на проверку базы с открытой петлей, который мы провели и убедились, что уровень ГК может оставаться стабильным без помощи со стороны петли.
 
 <p>
 <img src="../img/basal-open-loop.png" width="650">
 </p></br>
 
-### 3rd: Insulin sensitivity factor
+### 3. Фактор чувствительности к инсулину (ISF)
 
-Insulin sensitivity factor (ISF) is the next logical setting to test. If you've just done the basal test and gotten steady blood glucose with an open loop, try taking a glucose tab or two. Wait for your blood glucose to be steady at the higher value, and give a safe correction that you think will get you close to target. Watch the resulting blood glucose drop over the next 3-4 hours. You should see blood glucose come to a steady level again. How much did the blood glucose drop? How many units of insulin did you use? Divide the two numbers and you will have your ISF.  If your BG dropped 15 mg/dL with half unit of insulin, your ISF is approximately 30 mg/dL per unit.
+Фактор чувствительности к инсулину (ISF) — следующий логичный шаг для проверки коэффициентов после проверки базы и получения стабильной ГК на открытой петле. Попробуйте съесть одну или две таблетки глюкозы, подождите пока ГК выйдет на плато на более высоком уровне, и введите безопасный болюс, который, по вашему мнению, вернет вас к целевому значению.
 
-Testing ISF is an important step in successful closed Loop use. ISF is used in every Loop calculation and plays an important part in Loop's prediction curve. Most users find that they have to adjust ISF; most often increasing the value. If you are experiencing roller coastering blood glucose, as described below, that is oftern a sign that ISF needs adjustment up in value.
+Наблюдайте за снижением глюкозы в течение следующих 3-4 часов, уровень ГК должен снова стабилизироваться. Насколько упал уровень глюкозы в крови? Сколько единиц инсулина вы использовали? Разделите два числа, и вы получите ISF. Если ваш уровень ГК снизился на 0,8 ммоль/л (15 мг/дл) при болюсе 0,5 единиц инсулина, ваш ISF составляет приблизительно 1,6 ммоль/л (30 мг/дл) на единицу. 0,8 / 0,5 = 1,6
 
-Before you read the next part, let's clear up some definitions and terms:
+Подбор ISF — важный шаг к успешной компенсации при использовании замкнутой петли. Он используется в каждом вычислении петли и играет значимую роль в кривой прогноза на 6 часов вперёд. Если у вас наблюдаются резкие скачки ГК, это может означать что ISF нуждается в корректировке.
 
-Insulin sensitivity factor described just that...how sensitive your blood glucose is to the effect of insulin. If your blood glucose doesn't drop much when you put in insulin and you have to use a lot, your insulin sensitivity is "weak". If your blood glucose drops quickly and you don't need much insulin to correct a high blood glucose, your insulin sensitivity is "strong".
+**Некоторые определения и термины:**
 
-The terminology gets confusing sometimes because some people think of the terms "weak" and "strong" in terms of how Loop's actions will behave.  If you make your ISF value greater (i.e., changing it from 50 to 55), you are *weakening* the magnitude of Loop's adjustments because you are telling Loop that your sensitivity to insulin is *stronger*...you don't need as much to correct a high blood glucose and suspensions will have a tendancy to rebound more. 
+Фактор чувствительности к инсулину описывает как раз то, насколько чувствительна ваша глюкоза крови к действию инсулина. Если уровень глюкозы в крови трудно снижается и для корректировки высокого сахара вам нужно больше инсулина, ваша чувствительность «слабая». Если уровень ГК быстро снижается и требуется меньше инсулина для коррекции, ваша чувствительность к инсулину «сильная».
+Большинство пользователей считают, что необходимо настраивать ISF постепенно увеличивая значение. Терминология иногда сбивает с толку, потому что некоторые думают о терминах «слабый» и «сильный» с точки зрения того, как будет вести себя Loop. 
 
-In order to avoid the confusion that surrounds the words "weak" and "strong", instead we will describe the actual adjustment to the ISF ***value***...the number itself.
+Если вы увеличиваете значение ISF (например, изменяете его с 2,5 до 3), вы **ослабляете** силу корректировок Loop, потому что вы сообщаете — ваша чувствительность к инсулину **выше**, вам не нужно много инсулина для снижения высокого уровня глюкозы в крови и коррекция будет успешной.
 
-If your ISF is set to a value that is too low compared to what it really should be, one of the most common symptoms you'll see is a roller coaster of blood glucose where the temporary basals are cycling between zero and strong high temporary rates. Here are some example graphs from Looped group. These are examples where too low of ISF is more than likely a large factor in the roller coaster (doesn't mean it is the only culprit, and is more difficult to ferret out when food is involved like the second graph).  But, lightning bolt high temporary basals followed by very quick blood glucose drops and zero temps is usually too low of ISF value...raise the ISF value (e.g., go from 50 to 55) to help Loop know that each unit of insulin is actually having more impact than you'd previously thought.
+Чтобы избежать путаницы, связанной со словами «слабый» и «сильный», вместо этого разберем фактическое значение ISF на примере.
+Если ISF ниже чем нужно, на графике будут «американские горки», и ВБС от нуля до высоких значений.
+
+Вот несколько примеров графиков из группы Looped, когда слишком низкий ISF с большей вероятностью является причиной американских горок (график 1). На втором и третьем графике видно, что виновником этих горок может быть не только ISF и определить причину точно сложнее. Но, быстроизменяющиеся высокие временные базальные скорости, сопровождаемые очень быстрым падением ГК и отключением базы, обычно являются причиной заниженного ISF. Увеличьте значение ISF (например, с 2,5 до 3 ммоль/л или с 50 до 55 мг/дл), чтобы Loop знал — каждая единица инсулина на самом деле оказывает большее влияние, чем вы думали ранее.
 
 <p>
 <img src="../img/isf1.jpg" width="650">
@@ -72,18 +93,21 @@ If your ISF is set to a value that is too low compared to what it really should 
 <img src="../img/isf3.png" width="650">
 </p></br>
 
-### 4th: Carb Ratios
+### 4. Соотношение углеводов
 
-Now that you have basals, ISF, and DIA all set-up, here's where it gets really tempting to close loop and move on. And, truthfully, it's not that hard to test carb ratios on a closed loop vs an open loop if you've solidly tested all these other factors.
+Теперь, когда у вас есть основные настройки ISF и DIA, сразу возникает соблазн замкнуть цикл и двигаться дальше. Честно говоря, не настолько уж и сложнее проверить CR в закрытой петле, чем на открытой (если вы тщательно проверили другие коэффициенты).
 
-A good carb ratio will bring your blood glucose, for an average meal, back to the starting point of the meal within about 3 hours or so.
+Правильный углеводный коэффициент вернет уровень глюкозы в крови к исходной точке, примерно в течение 3 часов, исключая влияние физической активности.
 
-A bad carb ratio will leave you higher or lower than the starting point of the meal.
+Примечание: прием пищи с высоким содержанием жира / белка может привести к более длительному влиянию на уровень глюкозы в крови.
 
-For example, this graph shows too aggressive of a carb ratio.  Three hours after the meal, there's nearly 0.50 units of active insulin, blood glucose is well below where the meal started, and definitely low treatments needed.
+Неправильный CR приведет к тому, что глюкоза крови через несколько часов после еды станет выше или ниже исходной точки ГК (перед приемом пищи).
+
+Например, этот график показывает слишком агрессивный CR. Через три часа после еды уровень активного инсулина составляет около 0,5 единиц, уровень глюкозы в крови намного ниже, чем в начале приема пищи, следовательно, требуется меньше инсулина.
 
 <p>
 <img src="../img/carbratio2.png" width="350">
 </p></br>
 
-If you are finding that a correct carb ratio is yielding good blood glucose 3 hours later, but you aren't happy with the peak blood glucose during the meal, then it may be time to explore increasing or adding prebolusing time to your meal or implementing "eating soon" targets an hour before meals to help control the post-meal blood glucose spike. Artificially strengthening carb ratios to help control post-meal blood glucose spike will likely yield lows 2-3 hours after a meal.
+Если вы видите, что ваш CR приводит к целевому уровню глюкозы в крови через 3 часа, но вас не устраивает пик от еды, то, возможно, стоит обратить внимание на длительность паузы и кнопку «pre-meal», которая работает один час с заданной пониженной временной целью ГК.
+Уменьшение числа  CR во избежание резкого скачка ГК после еды, скорее всего, приведет к гипогликемии через 2-3 часа после еды.
