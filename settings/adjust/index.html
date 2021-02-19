@@ -9,174 +9,161 @@
         
         <link rel="shortcut icon" href="../../img/favicon.ico">
         <title>Adjust Your Settings - Loop Tips</title>
-        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
         <link href="../../css/font-awesome.min.css" rel="stylesheet">
         <link href="../../css/base.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/docco.min.css">
         <link href="../../css/admonitions.css" rel="stylesheet">
-        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!--[if lt IE 9]>
-            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-        <![endif]-->
 
         <script src="../../js/jquery-1.10.2.min.js" defer></script>
-        <script src="../../js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="../../js/bootstrap.min.js" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script> 
     </head>
 
     <body>
-
-        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-
-                <!-- Collapsed navigation -->
-                <div class="navbar-header">
-                    <!-- Expander button -->
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="../..">Loop Tips</a>
-                </div>
+                <a class="navbar-brand" href="../..">Loop Tips</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
                 <!-- Expanded navigation -->
-                <div class="navbar-collapse collapse">
+                <div id="navbar-collapse" class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
-                            <li >
-                                <a href="../..">Home</a>
+                            <li class="navitem">
+                                <a href="../.." class="nav-link">Home</a>
                             </li>
                             <li class="dropdown active">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Settings <b class="caret"></b></a>
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Settings <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
-<li >
-    <a href="../overview/">Why Settings Matter</a>
+<li>
+    <a href="../overview/" class="dropdown-item">Why Settings Matter</a>
 </li>
                                     
-<li >
-    <a href="../settings/">Initial Settings</a>
+<li>
+    <a href="../settings/" class="dropdown-item">Initial Settings</a>
 </li>
                                     
-<li class="active">
-    <a href="./">Adjust Your Settings</a>
+<li>
+    <a href="./" class="dropdown-item active">Adjust Your Settings</a>
 </li>
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Data Tools <b class="caret"></b></a>
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Data Tools <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
-<li >
-    <a href="../../data/overview/">Overview</a>
+<li>
+    <a href="../../data/overview/" class="dropdown-item">Overview</a>
 </li>
                                     
-<li >
-    <a href="../../data/health/">Health</a>
+<li>
+    <a href="../../data/health/" class="dropdown-item">Health</a>
 </li>
                                     
-<li >
-    <a href="../../data/nightscout/">Nightscout</a>
+<li>
+    <a href="../../data/nightscout/" class="dropdown-item">Nightscout</a>
 </li>
                                     
-<li >
-    <a href="../../data/tidepool/">Tidepool</a>
+<li>
+    <a href="../../data/tidepool/" class="dropdown-item">Tidepool</a>
 </li>
                                     
-<li >
-    <a href="../../data/glucodyn/">Perceptus</a>
+<li>
+    <a href="../../data/glucodyn/" class="dropdown-item">Perceptus</a>
 </li>
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">How To <b class="caret"></b></a>
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">How To <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
-<li >
-    <a href="../../how-to/think-like-loop/">Think Like a Loop</a>
+<li>
+    <a href="../../how-to/think-like-loop/" class="dropdown-item">Think Like a Loop</a>
 </li>
                                     
-<li >
-    <a href="../../how-to/cgm/">CGM habits</a>
+<li>
+    <a href="../../how-to/cgm/" class="dropdown-item">CGM habits</a>
 </li>
                                     
-<li >
-    <a href="../../how-to/iob/">Use morning IOB</a>
+<li>
+    <a href="../../how-to/iob/" class="dropdown-item">Use morning IOB</a>
 </li>
                                     
-<li >
-    <a href="../../how-to/overrides/">Override Targets</a>
+<li>
+    <a href="../../how-to/overrides/" class="dropdown-item">Override Targets</a>
 </li>
                                     
-<li >
-    <a href="../../how-to/low-treat/">Low Treatments</a>
+<li>
+    <a href="../../how-to/low-treat/" class="dropdown-item">Low Treatments</a>
 </li>
                                     
-<li >
-    <a href="../../how-to/disconnect/">Shower & Swimming</a>
+<li>
+    <a href="../../how-to/disconnect/" class="dropdown-item">Shower & Swimming</a>
 </li>
                                     
-<li >
-    <a href="../../how-to/exercise/">Exercise</a>
+<li>
+    <a href="../../how-to/exercise/" class="dropdown-item">Exercise</a>
 </li>
                                     
-<li >
-    <a href="../../how-to/bolus/">Extended Bolus</a>
+<li>
+    <a href="../../how-to/bolus/" class="dropdown-item">Extended Bolus</a>
 </li>
                                     
-<li >
-    <a href="../../how-to/site-fail/">Site Failure</a>
+<li>
+    <a href="../../how-to/site-fail/" class="dropdown-item">Site Failure</a>
 </li>
                                     
-<li >
-    <a href="../../how-to/high-bg/">Stuck on High</a>
+<li>
+    <a href="../../how-to/high-bg/" class="dropdown-item">Stuck on High</a>
 </li>
                                     
-<li >
-    <a href="../../how-to/endo/">Talk with Endo</a>
+<li>
+    <a href="../../how-to/endo/" class="dropdown-item">Talk with Endo</a>
 </li>
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Algorithm <b class="caret"></b></a>
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Algorithm <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
-<li >
-    <a href="../../algorithm/overview/">Overview</a>
+<li>
+    <a href="../../algorithm/overview/" class="dropdown-item">Overview</a>
 </li>
                                     
-<li >
-    <a href="../../algorithm/prediction/">Prediction</a>
+<li>
+    <a href="../../algorithm/prediction/" class="dropdown-item">Prediction</a>
 </li>
                                     
-<li >
-    <a href="../../algorithm/temp-basal/">Basal</a>
+<li>
+    <a href="../../algorithm/temp-basal/" class="dropdown-item">Basal</a>
 </li>
                                     
-<li >
-    <a href="../../algorithm/bolus/">Bolus</a>
+<li>
+    <a href="../../algorithm/bolus/" class="dropdown-item">Bolus</a>
 </li>
                                 </ul>
                             </li>
                         </ul>
 
-                    <ul class="nav navbar-nav navbar-right">
-                        <li>
-                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
-                            <li >
-                                <a rel="next" href="../settings/">
+                            <li class="nav-item">
+                                <a rel="prev" href="../settings/" class="nav-link">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
-                            <li >
-                                <a rel="prev" href="../../data/overview/">
+                            <li class="nav-item">
+                                <a rel="next" href="../../data/overview/" class="nav-link">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -186,15 +173,38 @@
         </div>
 
         <div class="container">
-                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
-    <ul class="nav bs-sidenav">
-        <li class="main active"><a href="#adjusting-your-settings">Adjusting Your Settings</a></li>
-            <li><a href="#troubleshooting-before-a-change">Troubleshooting before a change</a></li>
-            <li><a href="#assess-the-duration">Assess the duration</a></li>
-            <li><a href="#assess-the-data">Assess the data</a></li>
-    </ul>
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#adjusting-your-settings" class="nav-link">Adjusting Your Settings</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#troubleshooting-before-a-change" class="nav-link">Troubleshooting before a change</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#assess-the-duration" class="nav-link">Assess the duration</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#assess-the-data" class="nav-link">Assess the data</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
 </div></div>
-                <div class="col-md-9" role="main">
+                    <div class="col-md-9" role="main">
 
 <h1 id="adjusting-your-settings">Adjusting Your Settings<a class="headerlink" href="#adjusting-your-settings" title="Permanent link">⌁</a></h1>
 <p>There will be times when you need to adjust your settings in order to keep your blood glucose within your correction range. The degree to which you adjust your settings will depend on a variety of personal decisions about how active you engage with your diabetes, how comfortable your endocrinologist may feel with patient-adjusted settings, and what the underlying reason for the change is.</p>
@@ -238,6 +248,7 @@
 <p>Once you have assessed that there's a need for a settings adjustment, the next step is to decide <em>which</em> setting(s) to change and <em>how</em> to adjust them.</p>
 <p>Whether you undertake the adjustments by yourself and/or with your health care provider's input is at your own discretion. Ideally, you would have your health care provider's input and support to discuss the observations and concerns you have and develop an adjusted setting profile based on those discussions. Many endocrinologists are still becoming familiar with Loop and its algorithm, so providing them links to the various sites would be a good starting point for discussion. This can help the endocrinologist understand where Loop is similar/different than traditional pump therapy. If you and your health care provider are comfortable with your self-adjustments and Loop's algorithm, then proceed ahead.</p>
 <p>To begin the process of settings adjustment, visualizing your data trends is important. You need to be able to piece together what was eaten, how it was bolused, what temporary basals were applied, and how your blood glucose was reacting. The Data section of LoopTips covers the various places you can find your diabetes-related data to help you during adjustments.</p></div>
+            </div>
         </div>
 
         <footer class="col-md-12">
@@ -246,26 +257,26 @@
         </footer>
         <script>
             var base_url = "../..",
-                shortcuts = {"search": 83, "next": 78, "help": 191, "previous": 80};
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
         <script src="../../js/base.js" defer></script>
         <script src="../../search/main.js" defer></script>
 
-        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
-    <div class="modal-dialog">
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
                 <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
             </div>
             <div class="modal-body">
                 <p>
                     From here you can search these documents. Enter
                     your search terms below.
                 </p>
-                <form role="form">
+                <form>
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
                     </div>
                 </form>
                 <div id="mkdocs-search-results"></div>
@@ -274,12 +285,12 @@
             </div>
         </div>
     </div>
-</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
                 <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
             </div>
             <div class="modal-body">
               <table class="table">
