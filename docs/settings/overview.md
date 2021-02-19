@@ -12,7 +12,7 @@ Typically, most people with type 1 diabetes consult with their endocrinologist t
 
 ## Why settings matter
 
-Loop is primarily a set of math equations called an algorithm.  The recommendations and actions that Loop takes are based on that algorithm, and the settings you enter in your Loop app are the basis for that math.
+Loop is primarily a **set of math equations** called an algorithm.  The recommendations and actions that Loop takes are based on that algorithm, and the settings you enter in your Loop app are the basis for that math.
 
 Let's start by thinking about basal rates.  A well-adjusted basal schedule is designed to keep your blood glucose steady throughout the day, everything else being equal. If you were to not eat, not exercise, and basically keep a mellow lifestyle...basals should keep your blood glucose steady.  
 
